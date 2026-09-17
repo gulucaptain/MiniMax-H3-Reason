@@ -79,23 +79,25 @@ Successful generations from the Video-based Decision Reasoning (VDR) scenario. C
 <p align="center">
   <a href="assets/videos/VDR-013.mp4" title="VDR-013 · Watch video"><img src="assets/previews/VDR-013.gif" alt="VDR-013 — successful VDR generation" width="30%"></a>
   <a href="assets/videos/VDR-025.mp4" title="VDR-025 · Watch video"><img src="assets/previews/VDR-025.gif" alt="VDR-025 — successful VDR generation" width="30%"></a>
-  <a href="assets/videos/VDR-037.mp4" title="VDR-037 · Watch video"><img src="assets/previews/VDR-037.gif" alt="VDR-037 — successful VDR generation" width="30%"></a>
-</p>
-
-<p align="center">
-  <a href="assets/videos/VDR-047.mp4" title="VDR-047 · Watch video"><img src="assets/previews/VDR-047.gif" alt="VDR-047 — successful VDR generation" width="30%"></a>
   <a href="assets/videos/VDR-058.mp4" title="VDR-058 · Watch video"><img src="assets/previews/VDR-058.gif" alt="VDR-058 — successful VDR generation" width="30%"></a>
-  <a href="assets/videos/VDR-060.mp4" title="VDR-060 · Watch video"><img src="assets/previews/VDR-060.gif" alt="VDR-060 — successful VDR generation" width="30%"></a>
 </p>
 
 <p align="center">
+  <a href="assets/videos/VDR-060.mp4" title="VDR-060 · Watch video"><img src="assets/previews/VDR-060.gif" alt="VDR-060 — successful VDR generation" width="30%"></a>
   <a href="assets/videos/VDR-061.mp4" title="VDR-061 · Watch video"><img src="assets/previews/VDR-061.gif" alt="VDR-061 — successful VDR generation" width="30%"></a>
   <a href="assets/videos/VDR-063.mp4" title="VDR-063 · Watch video"><img src="assets/previews/VDR-063.gif" alt="VDR-063 — successful VDR generation" width="30%"></a>
-  <a href="assets/videos/VDR-066.mp4" title="VDR-066 · Watch video"><img src="assets/previews/VDR-066.gif" alt="VDR-066 — successful VDR generation" width="30%"></a>
 </p>
 
 <p align="center">
+  <a href="assets/videos/VDR-066.mp4" title="VDR-066 · Watch video"><img src="assets/previews/VDR-066.gif" alt="VDR-066 — successful VDR generation" width="30%"></a>
   <a href="assets/videos/VDR-072.mp4" title="VDR-072 · Watch video"><img src="assets/previews/VDR-072.gif" alt="VDR-072 — successful VDR generation" width="30%"></a>
+</p>
+
+<p align="center">
+  <a href="assets/videos/VDR-037.mp4" title="VDR-037 · Watch video"><img src="assets/previews/VDR-037.gif" alt="VDR-037 — successful VDR generation" width="23%"></a>
+  <a href="assets/videos/VDR-040.mp4" title="VDR-040 · Watch video"><img src="assets/previews/VDR-040.gif" alt="VDR-040 — successful VDR generation" width="23%"></a>
+  <a href="assets/videos/VDR-044.mp4" title="VDR-044 · Watch video"><img src="assets/previews/VDR-044.gif" alt="VDR-044 — successful VDR generation" width="23%"></a>
+  <a href="assets/videos/VDR-047.mp4" title="VDR-047 · Watch video"><img src="assets/previews/VDR-047.gif" alt="VDR-047 — successful VDR generation" width="23%"></a>
 </p>
 
 ## Evaluation protocol
