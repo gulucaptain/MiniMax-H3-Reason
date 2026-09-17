@@ -70,77 +70,33 @@ The scenarios differ in data, prompts, and generation targets. Their success rat
 
 Successful generations from the Video-based Decision Reasoning (VDR) scenario. Click any animated preview to open the full video with audio.
 
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <a href="assets/videos/VDR-004.mp4"><img src="assets/previews/VDR-004.gif" alt="Successful VDR generation: VDR-004" width="320"></a>
-      <br><a href="assets/videos/VDR-004.mp4">VDR-004 · Watch video</a>
-    </td>
-    <td align="center" width="25%">
-      <a href="assets/videos/VDR-006.mp4"><img src="assets/previews/VDR-006.gif" alt="Successful VDR generation: VDR-006" width="320"></a>
-      <br><a href="assets/videos/VDR-006.mp4">VDR-006 · Watch video</a>
-    </td>
-    <td align="center" width="25%">
-      <a href="assets/videos/VDR-011.mp4"><img src="assets/previews/VDR-011.gif" alt="Successful VDR generation: VDR-011" width="320"></a>
-      <br><a href="assets/videos/VDR-011.mp4">VDR-011 · Watch video</a>
-    </td>
-    <td align="center" width="25%">
-      <a href="assets/videos/VDR-013.mp4"><img src="assets/previews/VDR-013.gif" alt="Successful VDR generation: VDR-013" width="320"></a>
-      <br><a href="assets/videos/VDR-013.mp4">VDR-013 · Watch video</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="assets/videos/VDR-004.mp4" title="VDR-004 · Watch video"><img src="assets/previews/VDR-004.gif" alt="VDR-004 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-006.mp4" title="VDR-006 · Watch video"><img src="assets/previews/VDR-006.gif" alt="VDR-006 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-011.mp4" title="VDR-011 · Watch video"><img src="assets/previews/VDR-011.gif" alt="VDR-011 — successful VDR generation" width="30%"></a>
+</p>
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-025.mp4"><img src="assets/previews/VDR-025.gif" alt="Successful VDR generation: VDR-025" width="320"></a>
-      <br><a href="assets/videos/VDR-025.mp4">VDR-025 · Watch video</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-037.mp4"><img src="assets/previews/VDR-037.gif" alt="Successful VDR generation: VDR-037" width="320"></a>
-      <br><a href="assets/videos/VDR-037.mp4">VDR-037 · Watch video</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-047.mp4"><img src="assets/previews/VDR-047.gif" alt="Successful VDR generation: VDR-047" width="320"></a>
-      <br><a href="assets/videos/VDR-047.mp4">VDR-047 · Watch video</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="assets/videos/VDR-013.mp4" title="VDR-013 · Watch video"><img src="assets/previews/VDR-013.gif" alt="VDR-013 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-025.mp4" title="VDR-025 · Watch video"><img src="assets/previews/VDR-025.gif" alt="VDR-025 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-037.mp4" title="VDR-037 · Watch video"><img src="assets/previews/VDR-037.gif" alt="VDR-037 — successful VDR generation" width="30%"></a>
+</p>
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-058.mp4"><img src="assets/previews/VDR-058.gif" alt="Successful VDR generation: VDR-058" width="320"></a>
-      <br><a href="assets/videos/VDR-058.mp4">VDR-058 · Watch video</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-060.mp4"><img src="assets/previews/VDR-060.gif" alt="Successful VDR generation: VDR-060" width="320"></a>
-      <br><a href="assets/videos/VDR-060.mp4">VDR-060 · Watch video</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-061.mp4"><img src="assets/previews/VDR-061.gif" alt="Successful VDR generation: VDR-061" width="320"></a>
-      <br><a href="assets/videos/VDR-061.mp4">VDR-061 · Watch video</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="assets/videos/VDR-047.mp4" title="VDR-047 · Watch video"><img src="assets/previews/VDR-047.gif" alt="VDR-047 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-058.mp4" title="VDR-058 · Watch video"><img src="assets/previews/VDR-058.gif" alt="VDR-058 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-060.mp4" title="VDR-060 · Watch video"><img src="assets/previews/VDR-060.gif" alt="VDR-060 — successful VDR generation" width="30%"></a>
+</p>
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-063.mp4"><img src="assets/previews/VDR-063.gif" alt="Successful VDR generation: VDR-063" width="320"></a>
-      <br><a href="assets/videos/VDR-063.mp4">VDR-063 · Watch video</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-066.mp4"><img src="assets/previews/VDR-066.gif" alt="Successful VDR generation: VDR-066" width="320"></a>
-      <br><a href="assets/videos/VDR-066.mp4">VDR-066 · Watch video</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="assets/videos/VDR-072.mp4"><img src="assets/previews/VDR-072.gif" alt="Successful VDR generation: VDR-072" width="320"></a>
-      <br><a href="assets/videos/VDR-072.mp4">VDR-072 · Watch video</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="assets/videos/VDR-061.mp4" title="VDR-061 · Watch video"><img src="assets/previews/VDR-061.gif" alt="VDR-061 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-063.mp4" title="VDR-063 · Watch video"><img src="assets/previews/VDR-063.gif" alt="VDR-063 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-066.mp4" title="VDR-066 · Watch video"><img src="assets/previews/VDR-066.gif" alt="VDR-066 — successful VDR generation" width="30%"></a>
+</p>
+
+<p align="center">
+  <a href="assets/videos/VDR-072.mp4" title="VDR-072 · Watch video"><img src="assets/previews/VDR-072.gif" alt="VDR-072 — successful VDR generation" width="30%"></a>
+</p>
 
 ## Evaluation protocol
 
