@@ -95,10 +95,10 @@ Successful generations from the Video-based Decision Reasoning (VDR) scenario. C
 </p>
 
 <p align="center">
-  <a href="assets/videos/VDR-037.mp4" title="VDR-037 · Watch video"><img src="assets/previews/VDR-037.gif" alt="VDR-037 — successful VDR generation" width="23%"></a>
-  <a href="assets/videos/VDR-040.mp4" title="VDR-040 · Watch video"><img src="assets/previews/VDR-040.gif" alt="VDR-040 — successful VDR generation" width="23%"></a>
-  <a href="assets/videos/VDR-044.mp4" title="VDR-044 · Watch video"><img src="assets/previews/VDR-044.gif" alt="VDR-044 — successful VDR generation" width="23%"></a>
-  <a href="assets/videos/VDR-047.mp4" title="VDR-047 · Watch video"><img src="assets/previews/VDR-047.gif" alt="VDR-047 — successful VDR generation" width="23%"></a>
+  <a href="assets/videos/VDR-037.mp4" title="VDR-037 · Watch video"><img src="assets/previews/VDR-037.gif" alt="VDR-037 — successful VDR generation" width="24%"></a>
+  <a href="assets/videos/VDR-040.mp4" title="VDR-040 · Watch video"><img src="assets/previews/VDR-040.gif" alt="VDR-040 — successful VDR generation" width="24%"></a>
+  <a href="assets/videos/VDR-044.mp4" title="VDR-044 · Watch video"><img src="assets/previews/VDR-044.gif" alt="VDR-044 — successful VDR generation" width="24%"></a>
+  <a href="assets/videos/VDR-047.mp4" title="VDR-047 · Watch video"><img src="assets/previews/VDR-047.gif" alt="VDR-047 — successful VDR generation" width="24%"></a>
 </p>
 
 ## Evaluation protocol
