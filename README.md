@@ -91,6 +91,7 @@ Successful generations from the Video-based Decision Reasoning (VDR) scenario. C
 <p align="center">
   <a href="assets/videos/VDR-066.mp4" title="VDR-066 · Watch video"><img src="assets/previews/VDR-066.gif" alt="VDR-066 — successful VDR generation" width="30%"></a>
   <a href="assets/videos/VDR-072.mp4" title="VDR-072 · Watch video"><img src="assets/previews/VDR-072.gif" alt="VDR-072 — successful VDR generation" width="30%"></a>
+  <a href="assets/videos/VDR-010.mp4" title="VDR-010 · Watch video"><img src="assets/previews/VDR-010.gif" alt="VDR-010 — successful VDR generation" width="30%"></a>
 </p>
 
 <p align="center">
