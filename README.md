@@ -1,22 +1,26 @@
-# MiniMax-H3-Reason
-
-## Can MiniMax-H3 Reason About the Physical World?
+# Can MiniMax H3 Reason About the Physical World?
 ### An Evaluation of Omni-Modal Generative Model
 
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2609.18323-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.18323)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason)
 
-**Can a generative model infer what it should generate from complementary multimodal evidence?**
+**In this research, we ask that can a generative model infer what it should generate from complementary multimodal evidence?**
 
 We study physical-world reasoning through video generation, continuation, and editing. Instead of describing the complete target event, our prompts leave task-relevant information to be inferred from images, audio, and video. We evaluate whether generated outputs satisfy the semantic constraints supported by those observations.
 
 **517 evaluation instances · 4 reasoning scenarios · 29 subcategories · 41.97% overall success rate**
 
-[Overview](#overview) · [Reasoning scenarios](#reasoning-scenarios) · [Results](#results) · [Evaluation protocol](#evaluation-protocol) · [Resources](#resources) · [Authors](#authors)
+[Overview](#overview) · [Reasoning scenarios](#reasoning-scenarios) · [Results](#results) · [Evaluation protocol](#evaluation-protocol) · [Qualitative examples](#qualitative-examples) · [Citation](#citation)
+
+## TODO List
+
+- [x] Release the paper on arXiv — 2026-09-17.
+- [ ] Open-source evaluation results — TODO.
+- [ ] Open-source the evaluation dataset — TODO.
 
 ## Overview
 
-![Overview of the evaluation framework and its four physical-world reasoning scenarios](docs/assets/overview.png)
+![Overview of the evaluation framework and its four physical-world reasoning scenarios](assets/overview.jpg)
 
 Our evaluation asks whether a model can recover task-relevant information that is left unstated in the text prompt. Depending on the task, this involves integrating multiple views, identifying an event from its sound, anticipating a response to observed dynamics, or grounding auditory constraints in video.
 
@@ -64,11 +68,79 @@ The scenarios differ in data, prompts, and generation targets. Their success rat
 
 ## Qualitative examples
 
-![Representative ADR results showing visual inputs, acoustic cues, and generated frames](docs/assets/adr-examples.png)
+Successful generations from the Video-based Decision Reasoning (VDR) scenario. Click any animated preview to open the full video with audio.
 
-Representative ADR results from the manuscript show cabinet-opening and typewriter events guided by acoustic inputs. These are static frames from the qualitative analysis; playable input and output clips are not included in the current repository.
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <a href="assets/videos/VDR-004.mp4"><img src="assets/previews/VDR-004.gif" alt="Successful VDR generation: VDR-004" width="320"></a>
+      <br><a href="assets/videos/VDR-004.mp4">VDR-004 · Watch video</a>
+    </td>
+    <td align="center" width="25%">
+      <a href="assets/videos/VDR-006.mp4"><img src="assets/previews/VDR-006.gif" alt="Successful VDR generation: VDR-006" width="320"></a>
+      <br><a href="assets/videos/VDR-006.mp4">VDR-006 · Watch video</a>
+    </td>
+    <td align="center" width="25%">
+      <a href="assets/videos/VDR-011.mp4"><img src="assets/previews/VDR-011.gif" alt="Successful VDR generation: VDR-011" width="320"></a>
+      <br><a href="assets/videos/VDR-011.mp4">VDR-011 · Watch video</a>
+    </td>
+    <td align="center" width="25%">
+      <a href="assets/videos/VDR-013.mp4"><img src="assets/previews/VDR-013.gif" alt="Successful VDR generation: VDR-013" width="320"></a>
+      <br><a href="assets/videos/VDR-013.mp4">VDR-013 · Watch video</a>
+    </td>
+  </tr>
+</table>
 
-The manuscript also documents unsuccessful outputs. In one ADR example, a cat-meowing input causes the dog to open its mouth while the cat remains largely inactive, illustrating a mismatch between the acoustic cue and its visible source.
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-025.mp4"><img src="assets/previews/VDR-025.gif" alt="Successful VDR generation: VDR-025" width="320"></a>
+      <br><a href="assets/videos/VDR-025.mp4">VDR-025 · Watch video</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-037.mp4"><img src="assets/previews/VDR-037.gif" alt="Successful VDR generation: VDR-037" width="320"></a>
+      <br><a href="assets/videos/VDR-037.mp4">VDR-037 · Watch video</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-047.mp4"><img src="assets/previews/VDR-047.gif" alt="Successful VDR generation: VDR-047" width="320"></a>
+      <br><a href="assets/videos/VDR-047.mp4">VDR-047 · Watch video</a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-058.mp4"><img src="assets/previews/VDR-058.gif" alt="Successful VDR generation: VDR-058" width="320"></a>
+      <br><a href="assets/videos/VDR-058.mp4">VDR-058 · Watch video</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-060.mp4"><img src="assets/previews/VDR-060.gif" alt="Successful VDR generation: VDR-060" width="320"></a>
+      <br><a href="assets/videos/VDR-060.mp4">VDR-060 · Watch video</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-061.mp4"><img src="assets/previews/VDR-061.gif" alt="Successful VDR generation: VDR-061" width="320"></a>
+      <br><a href="assets/videos/VDR-061.mp4">VDR-061 · Watch video</a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-063.mp4"><img src="assets/previews/VDR-063.gif" alt="Successful VDR generation: VDR-063" width="320"></a>
+      <br><a href="assets/videos/VDR-063.mp4">VDR-063 · Watch video</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-066.mp4"><img src="assets/previews/VDR-066.gif" alt="Successful VDR generation: VDR-066" width="320"></a>
+      <br><a href="assets/videos/VDR-066.mp4">VDR-066 · Watch video</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="assets/videos/VDR-072.mp4"><img src="assets/previews/VDR-072.gif" alt="Successful VDR generation: VDR-072" width="320"></a>
+      <br><a href="assets/videos/VDR-072.mp4">VDR-072 · Watch video</a>
+    </td>
+  </tr>
+</table>
 
 ## Evaluation protocol
 
@@ -81,33 +153,21 @@ Success rate is the number of successful instances divided by the number of eval
 
 Generated outputs provide behavioral evidence about the complete generation process. They do not directly expose an internal reasoning mechanism; failures may arise from perception, evidence integration, or generation.
 
-## Resources
-
-This repository currently provides the research overview, aggregate results, and selected manuscript figures.
-
-| Resource | Link / status |
-| --- | --- |
-| Research summary and aggregate results | Included in this README |
-| Overview and qualitative figures | Included in `docs/assets/` |
-| Project page | Local design drafts under `planning/design-demos/`; public URL pending |
-| Paper | [arXiv:2609.18323](https://arxiv.org/abs/2609.18323) |
-| Evaluation dataset | [MiniMax-H3-Reason on Hugging Face](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason) |
-| Generated video clips | Not included yet |
-| Evaluation code and reproducibility instructions | Not included yet |
-
-No installation or evaluation commands are provided until executable code is available. This repository does not contain model weights.
-
-## Authors
-
-Haoyu Zhao<sup>1,*,†</sup>, Zihao Zhao<sup>1,*</sup>, Tianyu Deng<sup>1,*</sup>, Ziqin Xu<sup>1,*</sup>, Zihao Zhang<sup>2</sup>, Xudong Wang<sup>1</sup>, Jinxiang Guo<sup>1</sup>, Chen Gao<sup>1</sup>, Xiaobin Hu<sup>1</sup>, Ziyi Ye<sup>2</sup>, Yeying Jin<sup>3,‡</sup>, Jiaxi Gu<sup>3,‡</sup>, Zuxuan Wu<sup>2</sup>, Shuicheng Yan<sup>1</sup>
-
-<sup>1</sup> National University of Singapore · <sup>2</sup> Fudan University · <sup>3</sup> Tencent
-
-<sup>*</sup> Equal contribution · <sup>†</sup> Project lead · <sup>‡</sup> Corresponding authors
-
 ## Citation
 
-Please refer to our paper, [Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model](https://arxiv.org/abs/2609.18323), when citing this work.
+If you find this work useful, please cite our paper:
+
+```bibtex
+@misc{zhao2026minimaxh3reason,
+  title         = {Can {MiniMax-H3} Reason About the Physical World? An Evaluation of Omni-Modal Generative Model},
+  author        = {Haoyu Zhao and Zihao Zhao and Tianyu Deng and Ziqin Xu and Zihao Zhang and Xudong Wang and Jinxiang Guo and Chen Gao and Ziyi Ye and Yeying Jin and Jiaxi Gu and Zuxuan Wu and Shuicheng Yan},
+  year          = {2026},
+  eprint        = {2609.18323},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2609.18323}
+}
+```
 
 ## Data sources and usage
 
