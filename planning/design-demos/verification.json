@@ -1,0 +1,50 @@
+[
+  {
+    "name": "academic",
+    "width": 1440,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": 0,
+    "deadAnchors": []
+  },
+  {
+    "name": "academic",
+    "width": 390,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": 0,
+    "deadAnchors": []
+  },
+  {
+    "name": "editorial",
+    "width": 1440,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": 0,
+    "deadAnchors": []
+  },
+  {
+    "name": "editorial",
+    "width": 390,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": 0,
+    "deadAnchors": []
+  },
+  {
+    "name": "evidence",
+    "width": 1440,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": 0,
+    "deadAnchors": []
+  },
+  {
+    "name": "evidence",
+    "width": 390,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": 0,
+    "deadAnchors": []
+  }
+]
