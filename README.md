@@ -15,8 +15,13 @@ We study physical-world reasoning through video generation, continuation, and ed
 ## TODO List
 
 - [x] Release the paper on arXiv — 2026-09-17.
+- [ ] Auto-evaluation pipeline — TODO.
 - [ ] Open-source evaluation results — TODO.
 - [ ] Open-source the evaluation dataset — TODO.
+
+## Automated evaluation (in progress)
+
+We are working on building a DeepSeek-powered automated evaluation pipeline and accompanying evaluation scripts. By using large language models, the pipeline will create a closed loop between model testing and automated evaluation, helping make effective use of our evaluation data.
 
 ## Overview
 
@@ -38,7 +43,7 @@ All scenarios include a text prompt.
 
 | Scenario | Additional inputs | What a successful output must demonstrate | Instances | Subcategories |
 | --- | --- | --- | ---: | ---: |
-| **MSR** — Multi-view Spatial Reasoning | Multiple images | Preserve spatial relationships and coordinated actions across complementary views | 200 | 10 |
+| **MSR** — Multi-view Spatial Reasoning | Single image | Preserve spatial relationships and coordinated actions across complementary views | 200 | 10 |
 | **ADR** — Audio-based Disambiguation Reasoning | Image + audio | Resolve visual ambiguity and depict the event supported by the acoustic cue | 146 | 6 |
 | **VDR** — Video-based Decision Reasoning | Prefix video | Continue observed dynamics with an appropriate response to the task | 100 | 8 |
 | **AVIR** — Audiovisual Integrated Reasoning | Video + audio | Incorporate auditory evidence or spoken constraints into continuation or editing | 71 | 5 |
