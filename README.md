@@ -1,12 +1,18 @@
-# MiniMax-H3-Reason
+# Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model
 
 **中文（默认）** | [English](docs/README.en.md)
 
-[论文](https://arxiv.org/abs/2609.18323) · [Hugging Face 数据集](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason) · [详细使用说明](docs/USAGE.zh-CN.md) · [论文介绍与结果](docs/PROJECT.en.md)
+[![arXiv · 论文](https://img.shields.io/badge/arXiv%20%C2%B7%20%E8%AE%BA%E6%96%87-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.18323)
+[![Hugging Face · 数据集](https://img.shields.io/badge/Hugging%20Face%20%C2%B7%20%E6%95%B0%E6%8D%AE%E9%9B%86-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason)
+[![使用指南](https://img.shields.io/badge/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97-2563EB?style=for-the-badge&logo=readthedocs&logoColor=white)](docs/USAGE.zh-CN.md)
+[![研究介绍与结果](https://img.shields.io/badge/%E7%A0%94%E7%A9%B6%E4%BB%8B%E7%BB%8D%E4%B8%8E%E7%BB%93%E6%9E%9C-334155?style=for-the-badge&logo=github&logoColor=white)](docs/PROJECT.en.md)
 
-面向多模态视频生成模型的统一接入与自动评估工具，支持 ADR、VDR、AVIR、MSR 四个场景。
+MiniMax-H3-Reason 面向多模态视频生成模型的物理世界推理能力评测，覆盖 ADR、VDR、AVIR、MSR 四个场景，提供统一数据接口与自动评分工具。
 
-**数据与工具独立发布：**Hugging Face 提供 517 条任务、734 个源媒体文件、参考答案和声音描述；本 GitHub 仓库提供数据加载 SDK、模型适配接口、视频导入与校验、裁判服务适配及自动评分。原有论文展示素材保留在 `assets/`，它们不是测试输入。
+- **评测数据：** [Hugging Face](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason) 提供 517 条任务、734 个源媒体文件，以及参考答案和声音描述。
+- **评估工具：** 本仓库提供数据下载与加载、模型适配接口、生成视频导入与校验，以及可配置的 AI 裁判评分，输出四个场景的任务成功率。
+
+首次使用请从 [快速开始](#快速开始) 下载数据；已有生成结果可直接 [导入视频并评估](#导入已有视频并评估)。
 
 ## 工作介绍
 

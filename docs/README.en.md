@@ -2,9 +2,17 @@
 
 [中文（default）](../README.md) | **English**
 
-[Paper](https://arxiv.org/abs/2609.18323) · [Hugging Face data](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason) · [Full usage guide](USAGE.en.md) · [Research overview and results](PROJECT.en.md)
+[![arXiv · Paper](https://img.shields.io/badge/arXiv%20%C2%B7%20Paper-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.18323)
+[![Hugging Face · Dataset](https://img.shields.io/badge/Hugging%20Face%20%C2%B7%20Dataset-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason)
+[![Usage Guide](https://img.shields.io/badge/Usage%20Guide-2563EB?style=for-the-badge&logo=readthedocs&logoColor=white)](USAGE.en.md)
+[![Research & Results](https://img.shields.io/badge/Research%20%26%20Results-334155?style=for-the-badge&logo=github&logoColor=white)](PROJECT.en.md)
 
-Hugging Face hosts the 517 benchmark tasks, 734 source media files, references and audio evidence. This GitHub repository hosts the downloader, SDK, generation-adapter interface, submission importer/validator and automated evaluation for ADR, VDR, AVIR and MSR. Existing paper illustration assets are retained; they are not benchmark inputs.
+MiniMax-H3-Reason is a benchmark and evaluation toolkit for physical-world reasoning in multimodal video generation. It covers ADR, VDR, AVIR and MSR with a shared data interface and automated scoring.
+
+- **Dataset:** [Hugging Face](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason) hosts 517 tasks, 734 source media files, references and audio descriptions.
+- **Evaluation toolkit:** This repository provides data download and loading, model adapter interfaces, submission validation and configurable judge-based scoring, with success rates for all four scenarios.
+
+Start with [installation and download](#install-and-download), or [import existing videos](#generate-or-import-outputs) if your model outputs are ready.
 
 ## Research overview
 
