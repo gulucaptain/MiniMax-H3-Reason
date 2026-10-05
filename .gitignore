@@ -1,0 +1,17 @@
+# Participant data, generated results and credentials
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+judge_config.json
+configs/judge_config.json
+datasets/
+.cache/
+evaluation_results/
+checks/
+judge_check/
+my_submission/
+*.egg-info/
+.venv/

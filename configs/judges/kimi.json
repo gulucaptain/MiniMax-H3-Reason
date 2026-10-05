@@ -1,0 +1,16 @@
+{
+  "provider": "kimi",
+  "base_url": "https://api.moonshot.ai/v1",
+  "model": "kimi-k2.6",
+  "api_key_env": "MOONSHOT_API_KEY",
+  "timeout": 180,
+  "retries": 3,
+  "max_tokens": 8192,
+  "token_field": "max_tokens",
+  "json_mode": true,
+  "request_options": {
+    "thinking": {
+      "type": "disabled"
+    }
+  }
+}

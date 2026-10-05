@@ -1,0 +1,12 @@
+{
+  "provider": "compatible",
+  "base_url": "https://YOUR_IMAGE_CAPABLE_JUDGE_HOST/v1",
+  "model": "YOUR_IMAGE_CAPABLE_JUDGE_MODEL",
+  "api_key_env": "JUDGE_API_KEY",
+  "timeout": 180,
+  "retries": 3,
+  "max_tokens": 8192,
+  "token_field": "max_tokens",
+  "json_mode": true,
+  "request_options": {}
+}

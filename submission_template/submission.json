@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1.0",
+  "dataset_manifest_sha256": "107d33d0838fc25463c01d960d3ff55d20490883a48e3923fb656aef91541379",
+  "model_id": "REPLACE_MODEL_ID",
+  "model_version": "REPLACE_MODEL_VERSION",
+  "adapter_version": "REPLACE_ADAPTER_VERSION",
+  "scope": [
+    "ADR",
+    "VDR",
+    "AVIR",
+    "MSR"
+  ],
+  "preprocessing": [],
+  "generation_config": {},
+  "seed": null
+}

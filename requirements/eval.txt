@@ -1,0 +1,2 @@
+# Provides a portable FFmpeg fallback when the system binary is unavailable.
+imageio-ffmpeg==0.6.0

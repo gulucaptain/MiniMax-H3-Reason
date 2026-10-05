@@ -1,0 +1,2 @@
+-r requirements/eval.txt
+huggingface_hub>=1.0,<3
