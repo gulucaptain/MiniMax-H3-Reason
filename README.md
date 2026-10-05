@@ -15,13 +15,13 @@ We study physical-world reasoning through video generation, continuation, and ed
 ## TODO List
 
 - [x] Release the paper on arXiv — 2026-09-17.
-- [ ] Auto-evaluation pipeline — TODO.
-- [ ] Open-source evaluation results — TODO.
-- [ ] Open-source the evaluation dataset — TODO.
+- [x] Open-source the evaluation dataset — 2026-10-05.
+- [x] Auto-evaluation pipeline — 2026-10-05.
 
-## Automated evaluation (in progress)
+## Automated evaluation
 
-We are working on building a DeepSeek-powered automated evaluation pipeline and accompanying evaluation scripts. By using large language models, the pipeline will create a closed loop between model testing and automated evaluation, helping make effective use of our evaluation data.
+We built a DeepSeek-powered automated evaluation pipeline and accompanying evaluation scripts. By using large language models, the pipeline will create a closed loop between model testing and automated evaluation, helping make effective use of our evaluation data.
+The auto-evaluation pipeline is published at [🤗 Huggingface Repo: MiniMax-H3-Reason](https://huggingface.co/datasets/gulucaptain/MiniMax-H3-Reason)
 
 ## Overview
 
